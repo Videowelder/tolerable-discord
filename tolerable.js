@@ -54,6 +54,14 @@ loader("div#app-mount").then((_) => {
     grid-row-start: titleBar !important;
   }
 
+  .visual-refresh .sidebarListRounded_c48ade {
+    border-radius: 0;
+  }
+
+  div.itemsContainer_ef3116 {
+    padding-top: 8px;
+  }
+
   /* Hide "discover" button and the "download app" button from the sidebar */
   div[class*="listItem"]:has(* > div[data-list-item-id="guildsnav___guild-discover-button"]),
   div[class*="listItem"]:has(* > div[data-list-item-id="guildsnav___app-download-button"]) {
