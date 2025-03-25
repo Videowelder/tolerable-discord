@@ -44,6 +44,16 @@ loader("div#app-mount").then((_) => {
     display: none !important;
   }
 
+  /* Remove that awful header bar */
+  div.bar_c38106 {
+    display: none;
+  }
+
+  div.content_c48ade {
+    grid-template-rows: revert !important;
+    grid-row-start: titleBar !important;
+  }
+
   /* Hide "discover" button and the "download app" button from the sidebar */
   div[class*="listItem"]:has(* > div[data-list-item-id="guildsnav___guild-discover-button"]),
   div[class*="listItem"]:has(* > div[data-list-item-id="guildsnav___app-download-button"]) {
