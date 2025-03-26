@@ -44,30 +44,40 @@ loader("div#app-mount").then((_) => {
     display: none !important;
   }
 
-  /* Remove that awful header bar */
+  /* Remove awful title bar */
   div.bar_c38106 {
     display: none;
   }
 
+  /* Shift page up */
   div.content_c48ade {
     grid-template-rows: revert !important;
     grid-row-start: titleBar !important;
   }
 
+  /* Remove corner edge */
   .visual-refresh .sidebarListRounded_c48ade {
     border-radius: 0;
   }
 
-  div.itemsContainer_ef3116 {
-    padding-top: 8px;
+  /* Pad top of server icon list */
+  .visual-refresh .scroller_ef3116 {
+    padding-top: 12px;
   }
 
-  /* Re-dock the user profile bar */
+  /* Remove top border */
+  .visual-refresh .sidebarList_c48ade,
+  .visual-refresh .chat_f75fb0[data-has-border="true"] {
+    border-top: none;
+  }
+
+  /* Fix profile roundness when hovering */
   .visual-refresh .avatarWrapper__37e49 {
     border-top-left-radius: var(--radius-sm);
     border-bottom-left-radius: var(--radius-sm);
   }
 
+  /* Re-dock the user profile bar */
   .visual-refresh .panels_c48ade {
     left: 0;
     bottom: 0;
