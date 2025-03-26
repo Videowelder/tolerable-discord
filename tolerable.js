@@ -65,9 +65,15 @@ loader("div#app-mount").then((_) => {
     padding-top: 12px;
   }
 
+  /* Increase server list height */
+  .visual-refresh .wrapper_ef3116 {
+    margin-bottom: var(--custom-app-panels-height)
+  }
+
   /* Remove top border */
   .visual-refresh .sidebarList_c48ade,
-  .visual-refresh .chat_f75fb0[data-has-border="true"] {
+  .visual-refresh .chat_f75fb0[data-has-border="true"],
+  .visual-refresh .container__133bf {
     border-top: none;
   }
 
