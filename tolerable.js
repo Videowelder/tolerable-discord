@@ -62,6 +62,20 @@ loader("div#app-mount").then((_) => {
     padding-top: 8px;
   }
 
+  /* Re-dock the user profile bar */
+  .visual-refresh .avatarWrapper__37e49 {
+    border-top-left-radius: var(--radius-sm);
+    border-bottom-left-radius: var(--radius-sm);
+  }
+
+  .visual-refresh .panels_c48ade {
+    left: 0;
+    bottom: 0;
+    width: inherit;
+    border-radius: 0;
+    border: none;
+  }
+
   /* Hide "discover" button and the "download app" button from the sidebar */
   div[class*="listItem"]:has(* > div[data-list-item-id="guildsnav___guild-discover-button"]),
   div[class*="listItem"]:has(* > div[data-list-item-id="guildsnav___app-download-button"]) {
