@@ -16,7 +16,7 @@ at Discord, mostly aimed at reducing visual clutter and improving performance.
 - Disabled promotional banners for annoying games.
 - Removed the new title bar
 - Re-docked the bottom user profile island
-- Reverted the new colour scheme
+- Reverted the new colour scheme (dark mode only)
 
 ## Planned changes
 
@@ -24,3 +24,4 @@ These are not available yet.
 
 - Severely reducing the animations associated with super reacts (leave only the glowing colored
   reaction badge)
+- Add light mode colour scheme support
