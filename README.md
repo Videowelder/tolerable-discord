@@ -1,4 +1,4 @@
-# tolerable Discord
+# Minimal Old Discord
 
 A small Firefox extension that rolls back some of the
 [enshittification](https://doctorow.medium.com/social-quitting-1ce85b67b456) currently in progress
@@ -14,6 +14,9 @@ at Discord, mostly aimed at reducing visual clutter and improving performance.
   absolutely never used.
 - The boost progress bar is permanently disabled for all servers.
 - Disabled promotional banners for annoying games.
+- Removed the new title bar
+- Re-docked the bottom user profile island
+- Reverted the colour scheme
 
 ## Planned changes
 
